@@ -1,0 +1,106 @@
+body{
+    background-image: url(image/jedan.jpg);
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+    background-size: 100%;
+}
+
+h1{
+    color: black;
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration: italic;
+}
+
+h2{
+    color: black;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration: italic;
+}
+ 
+div {
+    /*padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    padding-left: 520px;*/
+    text-align: center;
+    font-size: 30px;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+.korisnik{
+    margin-left: 1150px;
+    font-size: x-large;
+    font-family: cursive;
+    color: black;
+}
+.navbar{
+    background-color: rgb(10, 10, 73);
+	color: white;
+    font-size: 25px;
+    font-family: cursive;
+}
+.pretraga {
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    padding-left: 590px;
+}
+
+#tabela {
+   align-self: center;
+   border-radius: 5%;
+   margin-left: 120px;
+   margin-right: 120px;
+   margin-top: initial;
+
+}
+
+
+.logo{
+    text-align: center;
+}
+
+#button1{
+    margin-left: 200px;
+    margin-right: auto;
+    text-underline-position: unset;
+}
+
+.button{
+    margin-top: 190px;
+    margin-top: 200px;
+    margin-right: 200px;
+}
+
+.desno{
+    
+    font-size:xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-stretch: narrower;
+    position: absolute; 
+    bottom: 5px; 
+    right: 5px; 
+    text-align: right;
+    top:700px;
+    color:black;
+  
+}
+.lijevo{
+    font-size:xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-stretch: narrower;
+    position: absolute; 
+    bottom: 5px; 
+    left: 5px; 
+    text-align: right;
+    top:700px;
+    color:black;
+    
+}
