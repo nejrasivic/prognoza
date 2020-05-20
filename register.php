@@ -8,7 +8,7 @@
 		$result = mysqli_query($db,$query);
 		if($result) {
 			echo "Registracija uspjesna";
-			header('Location: nejra.php');
+			header('Location: indeks.php');
 		}
 		else {
 			echo "Registracija neuspjesna, pokusajte ponovo";

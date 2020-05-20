@@ -1,6 +1,7 @@
 <?php
 session_start();
-setcookie("name" , "prognoza" , time() + 86400); // postavljamo cookie koji je odredjen parametrija ime i vrijednoscu prognoza te se postavlja vrijeme nakon kojeg ce on sam sebe da unistia to je 86400ms
+$cookie_name = "user";
+setcookie($cookie_name, time() + (86400 * 30), "/");
 
 if($_SERVER['REQUEST_METHOD']=='POST') {
 	include_once('connection.php');
@@ -39,6 +40,14 @@ if($_SERVER['REQUEST_METHOD']=='POST') {
 </head>
 <body>
 
+<?php
+if(!isset($_COOKIE[$cookie_name])) {
+  echo "Cookie named '" . $cookie_name . "' is not set!";
+} else {
+  echo "Cookie '" . $cookie_name . "' is set!<br>";
+  echo "Value is: " . $_COOKIE[$cookie_name];
+}
+?> 
 <style>
 body{
 background-image:url(reg.jpg);
