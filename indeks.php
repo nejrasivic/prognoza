@@ -1,7 +1,7 @@
 <?php
 session_start();
 $cookie_name = "user";
-setcookie($cookie_name, time() + (86400 * 30), "/");
+setcookie($cookie_name, time() + (86400), "/");
 
 if($_SERVER['REQUEST_METHOD']=='POST') {
 	include_once('connection.php');
